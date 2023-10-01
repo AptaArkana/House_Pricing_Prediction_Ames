@@ -20,13 +20,13 @@
 <p align="justify">Untuk kolom data yang bertipe kategori pemfilteran dilakukan dengan menghitung banyaknya kategori dari suatu kolom, ini dilakukan agar data terhindari dari imbalance</p>
 <br>
 <img height="auto" width="361" alt="image" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/f9a12cc7-4181-4038-96d3-ffd9b195df2e">
-<p align="justify">Setelah mendapatkan kolom - kolom yang terbaik untuk model langkah selanjutnya adalah memisahkan jenis dari setiap data agar memudahkan dalam membuat pipeline</p>
+<p align="justify">Setelah mendapatkan kolom - kolom yang terbaik untuk model, langkah selanjutnya adalah memisahkan jenis dari setiap data agar memudahkan dalam membuat pipeline</p>
 <br>
 <img width="369" alt="image" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/39585751-9bee-40ca-be3f-bf5694fb6bd2">
-<p align="justify">Untuk jenis data <b> kategori ordinal menggukan encoder OrdinalEncoder, <b> Sedangkan untuk jenis data <b> kategori nominal menggukan encoder OneHotEncoder<b></p>
+<p align="justify">Untuk jenis data <b> kategori ordinal menggukan encoder OrdinalEncoder, </b> Sedangkan untuk jenis data <b> kategori nominal menggukan encoder OneHotEncoder</b></p>
 <br>
 <img width="477" alt="image" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/467a24d5-bc7c-4c56-b915-5eb5ffe268c9">
-<p align="justify">Untuk memilih algoritma bisa menggunakan <b>LazyRegressor </b> untuk membandingkan banyak algoritma regresi. Pada kasus ini algoritma terbaik adalah GradientBoostingRegressor, karena memiliki nilai <b>R-Squared yang tinggi, RMSE yang rendah, dan waktu pelatihan yang wajar (1.46 detik) </b>. Oleh karena itu, model ini bisa menjadi pilihan yang baik.</p>
+<p align="justify">Untuk memilih algoritma bisa menggunakan <b>LazyRegressor</b> untuk membandingkan banyak algoritma regresi. Pada kasus ini algoritma terbaik adalah GradientBoostingRegressor, karena memiliki nilai <b> R-Squared yang tinggi, RMSE yang rendah, dan waktu pelatihan yang wajar (1.46 detik) </b>. Oleh karena itu, model ini bisa menjadi pilihan yang baik.</p>
 <br>
 <img width="234" alt="image" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/8052d830-1ddc-4f4a-b2bd-ea907b9924b9">
 <p align="justify">Setelah mendapatkan algoritma yang terbaik masukan kedalam pipeline. Dan lakukan hypertunning parameter untuk mendapatkan parameter terbaik</p>
