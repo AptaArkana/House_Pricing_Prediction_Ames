@@ -8,6 +8,6 @@
 <p align="justify">Terdiri dari <b>1460 Baris</b> dan <b>81 Kolom</b></p>
 <br>
 <img height="100" width="auto" alt="Missing Value Comparison" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/55c8499d-e94a-4173-be95-a91903361016">
-<p align="justify">kolom data yang memiliki missing value tertinggi <b>PoolQC, MiscFeature, Alley, Fence, FireplaceQU</b> sehingga kolom - kolom tersebut bisa kita hilangkan</p>
+<p align="justify">kolom data yang memiliki missing value tertinggi <b>PoolQC, MiscFeature, Alley, Fence, FireplaceQU </b> sehingga kolom - kolom tersebut bisa kita hilangkan</p>
 
 
