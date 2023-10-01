@@ -31,7 +31,7 @@
 <img height="200" width="auto" alt="Pipeline" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/8052d830-1ddc-4f4a-b2bd-ea907b9924b9">
 <p align="justify">Setelah mendapatkan algoritma yang terbaik masukan kedalam pipeline. Dan lakukan hypertunning parameter untuk mendapatkan parameter terbaik</p>
 <br>
-<img width="174" alt="Best Parameter" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/3d30818d-9cba-441e-905b-3d99651e69fd">
+<img height="100" width="auto" alt="Best Parameter" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/3d30818d-9cba-441e-905b-3d99651e69fd">
 <p align="justify">Setelah dilakukan hyper parameter tunning dengan <b>metode GridSearch </b> didapatkan parameter terbaik yaitu <b>learning_rate: 0.1, max_depth: 2, min_samples_leaf: 30, n_estimators': 250. </b> Dengan hasil evaluasi menggunakan RMSE sebesar <b> 0.148983.</b></p>
 
 
