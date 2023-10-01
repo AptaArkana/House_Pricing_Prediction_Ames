@@ -9,5 +9,8 @@
 <br>
 <img height="100" width="auto" alt="Missing Value Comparison" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/55c8499d-e94a-4173-be95-a91903361016">
 <p align="justify">kolom data yang memiliki missing value tertinggi <b>PoolQC, MiscFeature, Alley, Fence, FireplaceQU </b> sehingga kolom - kolom tersebut bisa kita hilangkan</p>
+<br>
+<img height="100" width="auto" alt="Distribusi Data LotFrontage, GarageYrBlt, MasVnrArea" src="https://github.com/AptaArkana/House_Pricing_Prediction_Ames/assets/79633073/f594d12f-8a3c-4c1f-be93-dffc77579ebd">
+<p align="justify">Untuk LotFrontage dan MasVnrArea <b>terindikasi Skewness Positif </b> karena itu untuk penanganan missing value menggunakan <b>median </b>, sedangkan GarageYrBlt bisa dibilang <b>distribusi normal</b> jadi bisa menggunakan <b>mean </b>. Dan untuk kolom yang mempunyai tipe data kategori untuk penanganan missing value bisa menggunakan <b>modus </b>b</p>
 
 
